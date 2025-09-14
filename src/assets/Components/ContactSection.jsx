@@ -47,7 +47,7 @@ const ContactSection = () => {
             from_email: email,
             subject,
             message,
-            to_email: 'arunpandeylaudari2003@gmail.com',
+            to_email: 'contactwitharunlaudari@gmail.com',
           }
         })
       });
@@ -83,7 +83,7 @@ const ContactSection = () => {
   };
 
   const contactMethods = [
-    { icon: <Mail className="w-6 h-6 text-purple-400" />, title: "Email", value: "arunpandeylaudari2003@gmail.com", link: "mailto:arunpandeylaudari2003@gmail.com" },
+    { icon: <Mail className="w-6 h-6 text-purple-400" />, title: "Email", value: "contactwitharunlaudari@gmail.com", link: "mailto:contactwitharunlaudari@gmail.com" },
     { icon: <Phone className="w-6 h-6 text-purple-400" />, title: "Phone", value: "+977-9829096752", link: "tel:+9779829096752" },
     { icon: <MapPin className="w-6 h-6 text-purple-400" />, title: "Location", value: "Bharatpur, Chitwan, Nepal", link: "https://maps.google.com/?q=Bharatpur,Chitwan,Nepal" },
   ];

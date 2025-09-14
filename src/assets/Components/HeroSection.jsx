@@ -418,7 +418,7 @@ export default function HeroSection() {
                   whileTap={{ scale: 0.95 }}
                   className="p-3 rounded-full bg-gray-800 hover:from-blue-700 hover:to-cyan-600 transition text-white shadow-lg flex items-center justify-center group"
                 >
-                 <a href="https://github.com/KodePanda2003"> <span className="mr-2 text-sm">Explore</span></a>
+                 <a href="https://github.com/KodewithArun"> <span className="mr-2 text-sm">Explore</span></a>
                   <FiArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </motion.button>
               </div>
