@@ -90,7 +90,7 @@ const ContactSection = () => {
 
   const socialLinks = [
     { icon: <FaLinkedin className="w-5 h-5" />, url: "https://www.linkedin.com/in/arun-pandey-laudari-214a9832a", label: "LinkedIn", color: "hover:bg-blue-600" },
-    { icon: <SiGithub className="w-5 h-5" />, url: "https://github.com/KodePanda2003", label: "GitHub", color: "hover:bg-gray-600" },
+    { icon: <SiGithub className="w-5 h-5" />, url: "https://github.com/KodewithArun", label: "GitHub", color: "hover:bg-gray-600" },
     { icon: <SiWhatsapp className="w-5 h-5" />, url: "https://wa.me/9779829096752", label: "WhatsApp", color: "hover:bg-green-600" },
   ];
 
