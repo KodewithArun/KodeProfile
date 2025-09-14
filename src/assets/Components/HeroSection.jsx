@@ -48,7 +48,7 @@ export default function HeroSection() {
   const [activeTab, setActiveTab] = useState('education');
   const [isVisible, setIsVisible] = useState(false);
 
-  const { repos, loading } = useGithubRepos('KodePanda2003'); // Replace with your GitHub username
+  const { repos, loading } = useGithubRepos('KodewithArun'); // Replace with your GitHub username
 
   useEffect(() => {
     setIsVisible(true);
@@ -294,9 +294,9 @@ export default function HeroSection() {
             {/* Social Icons */}
             <div className="flex flex-wrap gap-3 mt-6">
               {[
-                { icon: FaGithub, label: "GitHub",links:'https://github.com/KodePanda2003' },
+                { icon: FaGithub, label: "GitHub",links:'https://github.com/KodewithArun' },
                 { icon: FaLinkedin, label: "LinkedIn" ,links:'https://www.linkedin.com/in/arun-pandey-laudari-214a9832a' },
-                { icon: HiOutlineMail, label: "Email" ,links:'mailto:arunpandeylaudari2003@gmail.com' },
+                { icon: HiOutlineMail, label: "Email" ,links:'mailto:contactwitharunlaudari@gmail.com' },
                 {icon:SiWhatsapp,label:"WhatsApp",links:'https://wa.me/+9779829096752'}
 
               ].map((item, idx) => (
@@ -343,7 +343,7 @@ export default function HeroSection() {
               {/* Profile */}
               <div className="flex items-center space-x-4 mb-6">
                 <img
-                  src="https://github.com/ArunPandeyLaudari.png"
+                  src="https://github.com/KodewithArun.png"
                   alt="Arun Pandey Laudari"
                   className="w-16 h-16 rounded-full object-cover border-4 border-gradient-to-r from-cyan-500 to-blue-500 shadow-lg"
                 />
